@@ -181,7 +181,7 @@ export function AboutSection() {
                 <Card className="bg-slate-800/30 border-slate-700 overflow-hidden backdrop-blur-sm">
                   <CardContent className="p-0" style={{ paddingBottom: 0 }}>
                     <ImageWithFallback
-                      src="/assets/myself.png"
+                      src="/portfolio/assets/myself.png"
                       alt="Professional Developer"
                       className=""
                     />

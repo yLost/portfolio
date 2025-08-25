@@ -47,7 +47,7 @@ export function ProjectsSection() {
     {
       title: t("projects.social2.title"),
       description: t("projects.social2.description"),
-      image: "/assets/findyou_pic.png",
+      image: "/portfolio/assets/findyou_pic.png",
       technologies: [
         "React Native",
         "Docker",
@@ -64,7 +64,7 @@ export function ProjectsSection() {
     {
       title: t("projects.bot.title"),
       description: t("projects.bot.description"),
-      image: "/assets/shine_pic.png",
+      image: "/portfolio/assets/shine_pic.png",
       technologies: ["Angular", "Docker", "Nest.JS", "PostgreSql"],
       gradient: "from-purple-500 to-pink-500",
       delay: 0.4,
@@ -73,7 +73,7 @@ export function ProjectsSection() {
     {
       title: t("projects.website1.title"),
       description: t("projects.website1.description"),
-      image: "/assets/website1.png",
+      image: "/portfolio/assets/website1.png",
       technologies: ["WordPress", "PHP", "CSS"],
       gradient: "from-purple-500 to-pink-500",
       delay: 0.4,
@@ -82,7 +82,7 @@ export function ProjectsSection() {
     {
       title: t("projects.website1.title"),
       description: t("projects.website1.description"),
-      image: "/assets/website2.png",
+      image: "/portfolio/assets/website2.png",
       technologies: ["WordPress", "PHP", "CSS"],
       gradient: "from-purple-500 to-pink-500",
       delay: 0.4,
@@ -91,7 +91,7 @@ export function ProjectsSection() {
     {
       title: t("projects.website1.title"),
       description: t("projects.website1.description"),
-      image: "/assets/website3.png",
+      image: "/portfolio/assets/website3.png",
       technologies: ["NextJs", "NodeJs", "Express", "PostgreSQL"],
       gradient: "from-purple-500 to-pink-500",
       delay: 0.4,
