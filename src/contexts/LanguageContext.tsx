@@ -28,9 +28,9 @@ const translations = {
     "hero.cta.contact": "Entre em Contato",
 
     // About Section
-    "about.title": "Sobre Mim",
+    "about.title": "Fullstack Developer",
     "about.subtitle":
-      "Desenvolvedor apaixonado por tecnologia e inovação, focado em criar soluções que fazem a diferença",
+      "Desenvolvedor apaixonado por tecnologia e inovação, focado em criar soluções que fazem a diferença. Construindo sistemas corporativos, plataformas escaláveis e experiências digitais de alto impacto",
     "about.content.title": "Experiência & Paixão",
     "about.content.description1":
       "Com mais de 7 anos de experiência no desenvolvimento fullstack, especializo-me em criar aplicações robustas e escaláveis para empresas de todos os tamanhos.",

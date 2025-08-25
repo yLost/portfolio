@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { useLanguage } from "../contexts/LanguageContext";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Badge } from "./ui/badge";
+import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 
 export function AboutSection() {
@@ -49,22 +50,10 @@ export function AboutSection() {
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
+        <div
+          className="grid lg:grid-cols-2 gap-12 items-center mb-16"
+          style={{ marginTop: "60px" }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-            {t("about.title")}
-          </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            {t("about.subtitle")}
-          </p>
-        </motion.div>
-
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           {/* Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -74,6 +63,21 @@ export function AboutSection() {
           >
             <div className="space-y-6">
               <div>
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8 }}
+                  viewport={{ once: true }}
+                  className="mb-16"
+                >
+                  <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
+                    {t("about.title")}
+                  </h2>
+                  <p className="text-gray-400 text-lg max-w-2xl">
+                    {t("about.subtitle")}
+                  </p>
+                </motion.div>
+
                 <h3 className="text-2xl font-semibold text-white mb-4">
                   {t("about.content.title")}
                 </h3>
@@ -86,7 +90,7 @@ export function AboutSection() {
               </div>
 
               {/* Skills */}
-              <div>
+              <div style={{ marginBottom: "40px" }}>
                 <h4 className="text-lg font-semibold text-cyan-400 mb-4">
                   {t("about.skills.title")}
                 </h4>
@@ -110,6 +114,40 @@ export function AboutSection() {
                   ))}
                 </div>
               </div>
+
+              {/* CTA */}
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, delay: 0.6 }}
+                className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
+              >
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white border-0 px-8 py-3 shadow-lg hover:shadow-cyan-500/25 transition-all duration-300 hover:scale-105"
+                  onClick={() => {
+                    const element = document.querySelector("#projetos");
+                    if (element) {
+                      element.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                >
+                  {t("hero.cta.portfolio")}
+                </Button>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 hover:border-cyan-400 px-8 py-3 transition-all duration-300 hover:scale-105"
+                  onClick={() => {
+                    const element = document.querySelector("#footer");
+                    if (element) {
+                      element.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                >
+                  {t("hero.cta.contact")}
+                </Button>
+              </motion.div>
             </div>
           </motion.div>
 

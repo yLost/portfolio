@@ -30,15 +30,35 @@ export function Footer() {
             {t("footer.subtitle")}
           </p>
 
-          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <a
-              href="mailto:fernandopovinsky@hotmail.com"
-              className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white border-0 px-12 py-4 text-lg shadow-lg hover:shadow-cyan-500/25 transition-all duration-300"
-              style={{ borderRadius: "8px" }}
-            >
-              {t("footer.cta")}
-            </a>
-          </motion.div>
+          <div className="flex justify-center gap-4">
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <a
+                href="mailto:fernandopovinsky@hotmail.com"
+                className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white border-0 px-12 py-4 text-lg shadow-lg hover:shadow-cyan-500/25 transition-all duration-300"
+                style={{ borderRadius: "8px" }}
+              >
+                Email
+              </a>
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <a
+                href="https://www.linkedin.com/in/fernando-povinsky/"
+                className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white border-0 px-12 py-4 text-lg shadow-lg hover:shadow-cyan-500/25 transition-all duration-300"
+                style={{ borderRadius: "8px" }}
+              >
+                Linkedin
+              </a>
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <a
+                href="https://github.com/yLost"
+                className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white border-0 px-12 py-4 text-lg shadow-lg hover:shadow-cyan-500/25 transition-all duration-300"
+                style={{ borderRadius: "8px" }}
+              >
+                GitHub
+              </a>
+            </motion.div>
+          </div>
         </motion.div>
 
         {/* Bottom section */}

@@ -113,6 +113,12 @@ export function HeroSection() {
                 size="lg"
                 variant="outline"
                 className="border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 hover:border-cyan-400 px-8 py-3 transition-all duration-300 hover:scale-105"
+                onClick={() => {
+                  const element = document.querySelector("#footer");
+                  if (element) {
+                    element.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
               >
                 {t("hero.cta.contact")}
               </Button>

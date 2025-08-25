@@ -1,11 +1,10 @@
 import {
-  ArrowRight,
   CheckCircle,
   Cloud,
   Code2,
   Database,
   Smartphone,
-  Zap,
+  Zap
 } from "lucide-react";
 import { motion } from "motion/react";
 import { useLanguage } from "../contexts/LanguageContext";
@@ -191,7 +190,7 @@ export function ServicesSection() {
                   </ul>
 
                   {/* CTA Button */}
-                  <motion.div
+                  {/* <motion.div
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                   >
@@ -202,7 +201,7 @@ export function ServicesSection() {
                       {t("services.cta")}
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
                     </Button>
-                  </motion.div>
+                  </motion.div> */}
 
                   {/* Animated border */}
                   <motion.div
