@@ -60,10 +60,6 @@
       "type": "Site & aplicativo mobile",
       "description": "Ecossistema mobile para conexões e eventos, com mapa, feed e serviços distribuídos."
     },
-    "Shine": {
-      "type": "Atendimento multicanal",
-      "description": "Plataforma para organizar conversas e operações de suporte em múltiplos canais."
-    },
     "Grupo Coletti": {
       "type": "Website institucional",
       "description": "Presença digital responsiva, pensada para apresentar serviços com clareza e gerar novos contatos."
@@ -71,10 +67,6 @@
     "Metta Impermeabilização": {
       "type": "Website institucional",
       "description": "Site responsivo para apresentar soluções de impermeabilização, fortalecer a presença digital e facilitar novos orçamentos."
-    },
-    "EnterCity": {
-      "type": "Plataforma web",
-      "description": "Experiência web para descobrir lugares, serviços e oportunidades na cidade."
     },
     "Minha Tampa": {
       "type": "Aplicativo mobile publicado",

@@ -15,70 +15,46 @@ const translations = { pt: ptBr, en };
 
 type Project = {
   name: ProjectName;
-  image: string;
   tech: string;
   link?: string;
   storeLink?: string;
-  status?: string;
-  featured?: boolean;
   app?: boolean;
 };
 const projects: Project[] = [
   {
     name: "Wipsie",
-    image: "https://wipsie.acomerce.net/static/images/wipsie-illustration.webp",
     tech: "Next.js · NestJS · PostgreSQL · RabbitMQ",
     link: "https://wipsie.acomerce.net",
-    featured: true,
   },
   {
     name: "Ranke",
-    image: "https://ranke.com.br/img/mainDashboard.png",
     tech: "React · NestJS · Redis · Docker",
     link: "https://ranke.com.br",
-    featured: true,
   },
   {
     name: "FindYou",
-    image: `${basePath}/assets/findyou_pic.png`,
     tech: "React Native · NestJS · MongoDB · Redis",
     link: "https://findyouapp.com.br",
     storeLink: "https://play.google.com/store/apps/details?id=com.ylost.findyou&hl=pt_BR",
   },
   {
-    name: "Shine",
-    image: `${basePath}/assets/shine_pic.png`,
-    tech: "Angular · NestJS · PostgreSQL · Docker",
-    link: "https://shine.help",
-  },
-  {
     name: "Grupo Coletti",
-    image: `${basePath}/assets/website1.png`,
     tech: "WordPress · PHP · CSS",
     link: "https://grupocoletti.com.br",
   },
   {
     name: "Metta Impermeabilização",
-    image: `${basePath}/assets/website2.png`,
     tech: "WordPress · PHP · CSS",
     link: "https://mettaimpermeabilizacao.com.br/",
   },
   {
-    name: "EnterCity",
-    image: `${basePath}/assets/website3.png`,
-    tech: "Next.js · Node.js · PostgreSQL",
-    link: "https://entercity.club/",
-  },
-  {
     name: "Minha Tampa",
-    image: `${basePath}/assets/app-minha-tampa.png`,
     tech: "React Native · Expo · NestJS · Redis",
     link: "https://play.google.com/store/apps/details?id=com.ylost.minhatampa&hl=pt_BR",
     app: true,
   },
   {
     name: "Connect Gym",
-    image: `${basePath}/assets/app-connect-gym.png`,
     tech: "React Native · Expo · NestJS · WebSocket",
     link: "https://play.google.com/store/apps/details?id=com.ylost.connectgym&hl=pt_BR",
     app: true,
@@ -213,58 +189,34 @@ export default function Portfolio({ initialLanguage = "en" }: { initialLanguage?
             </div>
             <p>{t.projectsIntro}</p>
           </div>
-          <div className="project-grid">
-            {projects.map((project) => (
-              <article
-                className={`${project.featured ? "project-card featured" : "project-card"}${project.app ? " app" : ""}`}
-                key={project.name}
-              >
-                <div className="project-image">
-                  <img
-                    src={project.image}
-                    alt={
-                      language === "pt"
-                        ? `Prévia do projeto ${project.name}`
-                        : `${project.name} project preview`
-                    }
-                    loading="lazy"
-                    decoding="async"
-                  />
-                  {project.link && (
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label={`${t.visit}: ${project.name}`}
-                    >
-                      <ArrowUpRight />
-                    </a>
-                  )}
+          <div className="project-list">
+            {projects.map((project, index) => (
+              <article className="project-row" key={project.name}>
+                <span className="project-index">{String(index + 1).padStart(2, "0")}</span>
+                <div className="project-summary">
+                  <p className="project-type">{t.projects[project.name].type}</p>
+                  <h3>{project.name}</h3>
+                  <p className="project-description">{t.projects[project.name].description}</p>
                 </div>
-                <div className="project-meta">
-                  <p>{t.projects[project.name].type}</p>
-                  <p>{project.tech}</p>
-                </div>
-                <h3>{project.name}</h3>
-                <p className="project-description">{t.projects[project.name].description}</p>
-                <div className="project-actions">
-                  {project.link ? (
-                    <a className="text-link" href={project.link} target="_blank" rel="noreferrer">
-                      {project.app ? t.store : t.visit} <ArrowUpRight size={16} />
-                    </a>
-                  ) : (
-                    <span className="text-link project-status">{project.status}</span>
-                  )}
-                  {project.storeLink && (
-                    <a
-                      className="text-link"
-                      href={project.storeLink}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {t.store} <ArrowUpRight size={16} />
-                    </a>
-                  )}
+                <div className="project-details">
+                  <p className="project-tech">{project.tech}</p>
+                  <div className="project-actions">
+                    {project.link && (
+                      <a className="text-link" href={project.link} target="_blank" rel="noreferrer">
+                        {project.app ? t.store : t.visit} <ArrowUpRight size={16} />
+                      </a>
+                    )}
+                    {project.storeLink && (
+                      <a
+                        className="text-link"
+                        href={project.storeLink}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {t.store} <ArrowUpRight size={16} />
+                      </a>
+                    )}
+                  </div>
                 </div>
               </article>
             ))}

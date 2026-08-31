@@ -18,10 +18,8 @@ Fernando Povinski desenvolve produtos digitais, sistemas corporativos, plataform
 - Wipsie: plataforma social e e-commerce com feed personalizado e interações em tempo real. https://wipsie.acomerce.net
 - Ranke: CRM e plataforma de automação comercial para equipes de vendas. https://ranke.com.br
 - FindYou: plataforma social para conexões e eventos. Site: https://findyouapp.com.br — Aplicativo na Google Play: https://play.google.com/store/apps/details?id=com.ylost.findyou&hl=pt_BR
-- Shine: plataforma de atendimento multicanal. https://shine.help
 - Grupo Coletti: website institucional responsivo. https://grupocoletti.com.br
 - Metta Impermeabilização: website institucional para apresentação de serviços e solicitação de orçamentos. https://mettaimpermeabilizacao.com.br
-- EnterCity: plataforma web para descoberta de lugares e serviços. https://entercity.club
 - Minha Tampa: aplicativo móvel social baseado em proximidade, com feed, matches, chat em tempo real e mapa, publicado na Google Play. https://play.google.com/store/apps/details?id=com.ylost.minhatampa&hl=pt_BR
 - Connect Gym: aplicativo móvel para conectar praticantes e academias, com descoberta de locais, check-in e recursos sociais, publicado na Google Play. https://play.google.com/store/apps/details?id=com.ylost.connectgym&hl=pt_BR
 
