@@ -11,14 +11,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://ylost.github.io/portfolio/br/",
       lastModified,
       changeFrequency: "monthly",
-      priority: 1,
+      priority: 0.9,
       alternates: { languages },
     },
     {
       url: "https://ylost.github.io/portfolio/en/",
       lastModified,
       changeFrequency: "monthly",
-      priority: 0.9,
+      priority: 1,
       alternates: { languages },
     },
   ];

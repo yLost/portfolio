@@ -1,5 +1,5 @@
-import Portfolio from "../components/Portfolio";
+import LanguageRedirect from "../components/LanguageRedirect";
 
 export default function Page() {
-  return <Portfolio initialLanguage="pt" />;
+  return <LanguageRedirect />;
 }

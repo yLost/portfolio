@@ -94,7 +94,7 @@ const stack = [
   { label: "mobile", items: ["React Native", "Flutter"] },
 ] as const;
 
-export default function Portfolio({ initialLanguage = "pt" }: { initialLanguage?: Language }) {
+export default function Portfolio({ initialLanguage = "en" }: { initialLanguage?: Language }) {
   const language = initialLanguage;
   const [menuOpen, setMenuOpen] = useState(false);
   const t = translations[language];

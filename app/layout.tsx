@@ -3,38 +3,38 @@ import type { ReactNode } from "react";
 import "../styles/portfolio.css";
 
 const siteUrl = "https://ylost.github.io/portfolio";
-const title = "Fernando Povinski | Desenvolvedor Full Stack";
+const title = "Fernando Povinski | Full Stack Developer";
 const description =
-  "Desenvolvedor full stack com mais de 7 anos de experiência em produtos web, aplicativos, APIs, integrações e infraestrutura em nuvem.";
+  "Full stack developer with over 7 years of experience building web products, mobile apps, APIs, integrations and cloud infrastructure.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: { default: title, template: "%s | Fernando Povinski" },
   description,
-  applicationName: "Portfólio Fernando Povinski",
+  applicationName: "Fernando Povinski Portfolio",
   authors: [{ name: "Fernando Povinski", url: siteUrl }],
   creator: "Fernando Povinski",
   publisher: "Fernando Povinski",
   keywords: [
     "Fernando Povinski",
-    "desenvolvedor full stack",
-    "desenvolvedor React",
-    "desenvolvedor Next.js",
-    "desenvolvedor Node.js",
+    "full stack developer",
+    "React developer",
+    "Next.js developer",
+    "Node.js developer",
     "NestJS",
-    "aplicações web",
-    "desenvolvimento de software",
+    "web applications",
+    "software development",
     "Brasil",
   ],
   alternates: {
-    canonical: `${siteUrl}/br/`,
-    languages: { "pt-BR": `${siteUrl}/br/`, en: `${siteUrl}/en/`, "x-default": `${siteUrl}/br/` },
+    canonical: `${siteUrl}/en/`,
+    languages: { "pt-BR": `${siteUrl}/br/`, en: `${siteUrl}/en/`, "x-default": `${siteUrl}/en/` },
   },
   category: "technology",
   openGraph: {
     type: "website",
-    locale: "pt_BR",
-    alternateLocale: "en_US",
+    locale: "en_US",
+    alternateLocale: "pt_BR",
     url: siteUrl,
     siteName: "Fernando Povinski",
     title,
@@ -75,7 +75,7 @@ const jsonLd = {
   name: "Fernando Povinski",
   url: siteUrl,
   image: `${siteUrl}/assets/myself.png`,
-  jobTitle: "Desenvolvedor Full Stack",
+  jobTitle: "Full Stack Developer",
   knowsAbout: [
     "React",
     "Next.js",
@@ -93,7 +93,7 @@ const jsonLd = {
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="en">
       <body>
         {children}
         <script
