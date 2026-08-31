@@ -1,0 +1,88 @@
+{
+  "nav": ["Sobre", "Trabalho", "Experiência"],
+  "contact": "Vamos conversar",
+  "eyebrow": "Desenvolvedor full stack • Brasil",
+  "titleA": "Eu construo produtos digitais",
+  "titleB": "que precisam funcionar de verdade.",
+  "intro": "Sou Fernando Povinski. Há mais de 7 anos transformo problemas de negócio em sistemas, plataformas e aplicativos claros, rápidos e sustentáveis.",
+  "seeWork": "Ver trabalhos",
+  "availability": "Disponível para projetos selecionados",
+  "projectsKicker": "Trabalhos selecionados",
+  "projectsTitle": "Produtos que saíram do papel.",
+  "projectsIntro": "Uma seleção de plataformas, aplicativos e sites em que atuei do planejamento à entrega.",
+  "visit": "Visitar projeto",
+  "store": "Ver na Google Play",
+  "aboutKicker": "Como eu trabalho",
+  "aboutTitle": "Código é só uma parte da entrega.",
+  "aboutText": "Gosto de entender o problema antes de escolher a tecnologia. Trabalho perto do produto e do negócio, com comunicação direta, decisões pragmáticas e atenção ao que acontece depois do lançamento.",
+  "principles": [
+    [
+      "01",
+      "Clareza antes da complexidade",
+      "Arquitetura e interface devem facilitar a vida de quem usa e de quem mantém."
+    ],
+    [
+      "02",
+      "Entrega com contexto",
+      "Não implemento telas isoladas. Procuro entender o impacto de cada decisão no produto."
+    ],
+    [
+      "03",
+      "Qualidade que dura",
+      "Performance, segurança e manutenção entram na conversa desde o início."
+    ]
+  ],
+  "stackKicker": "Experiência",
+  "stackTitle": "Do banco de dados à interface.",
+  "stackText": "Atuo em toda a jornada do produto, com maior profundidade em aplicações web, APIs, integrações e infraestrutura em nuvem.",
+  "stackLabels": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "dataCloud": "Dados & cloud",
+    "mobile": "Mobile"
+  },
+  "footerKicker": "Contato",
+  "footerTitle": "Tem um problema interessante para resolver?",
+  "footerText": "Conte um pouco sobre o projeto. Eu respondo pessoalmente.",
+  "email": "Enviar um e-mail",
+  "rights": "Feito com atenção aos detalhes.",
+  "years": "anos criando produtos digitais",
+  "projects": {
+    "Wipsie": {
+      "type": "Plataforma social & e-commerce",
+      "description": "Rede social com feed personalizado, interações em tempo real e uma operação de comércio integrada."
+    },
+    "Ranke": {
+      "type": "CRM & automação comercial",
+      "description": "Produto de gestão comercial que centraliza processos, atendimento e indicadores para equipes de vendas."
+    },
+    "FindYou": {
+      "type": "Site & aplicativo mobile",
+      "description": "Ecossistema mobile para conexões e eventos, com mapa, feed e serviços distribuídos."
+    },
+    "Shine": {
+      "type": "Atendimento multicanal",
+      "description": "Plataforma para organizar conversas e operações de suporte em múltiplos canais."
+    },
+    "Grupo Coletti": {
+      "type": "Website institucional",
+      "description": "Presença digital responsiva, pensada para apresentar serviços com clareza e gerar novos contatos."
+    },
+    "Metta Impermeabilização": {
+      "type": "Website institucional",
+      "description": "Site responsivo para apresentar soluções de impermeabilização, fortalecer a presença digital e facilitar novos orçamentos."
+    },
+    "EnterCity": {
+      "type": "Plataforma web",
+      "description": "Experiência web para descobrir lugares, serviços e oportunidades na cidade."
+    },
+    "Minha Tampa": {
+      "type": "Aplicativo mobile publicado",
+      "description": "Rede social baseada em proximidade, com feed, matches, conversas em tempo real e descoberta de pessoas pelo mapa."
+    },
+    "Connect Gym": {
+      "type": "Aplicativo mobile publicado",
+      "description": "Comunidade para praticantes e academias, com descoberta de locais próximos, check-in, feed social e conexões entre usuários."
+    }
+  }
+}

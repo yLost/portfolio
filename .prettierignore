@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+build
+.pnpm-store
+pnpm-lock.yaml
+public/**/*.png
+public/**/*.jpg
+public/**/*.jpeg
+public/**/*.webp
+public/**/*.svg

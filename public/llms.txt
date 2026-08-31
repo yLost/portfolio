@@ -1,0 +1,37 @@
+# Fernando Povinski — Full Stack Developer
+
+> Portfólio profissional de Fernando Povinski, desenvolvedor full stack brasileiro com mais de 7 anos de experiência.
+
+## Perfil
+
+Fernando Povinski desenvolve produtos digitais, sistemas corporativos, plataformas web, aplicativos móveis, APIs e integrações. Seu trabalho prioriza clareza, desempenho, segurança, manutenção e alinhamento com objetivos de negócio.
+
+## Competências principais
+
+- Frontend: React, Next.js, Angular, Svelte e TypeScript
+- Backend: Node.js, NestJS, PHP, C# e Java
+- Dados e infraestrutura: PostgreSQL, MongoDB, Redis, AWS, GCP e Docker
+- Mobile: React Native e Flutter
+
+## Projetos selecionados
+
+- Wipsie: plataforma social e e-commerce com feed personalizado e interações em tempo real. https://wipsie.acomerce.net
+- Ranke: CRM e plataforma de automação comercial para equipes de vendas. https://ranke.com.br
+- FindYou: plataforma social para conexões e eventos. Site: https://findyouapp.com.br — Aplicativo na Google Play: https://play.google.com/store/apps/details?id=com.ylost.findyou&hl=pt_BR
+- Shine: plataforma de atendimento multicanal. https://shine.help
+- Grupo Coletti: website institucional responsivo. https://grupocoletti.com.br
+- Metta Impermeabilização: website institucional para apresentação de serviços e solicitação de orçamentos. https://mettaimpermeabilizacao.com.br
+- EnterCity: plataforma web para descoberta de lugares e serviços. https://entercity.club
+- Minha Tampa: aplicativo móvel social baseado em proximidade, com feed, matches, chat em tempo real e mapa, publicado na Google Play. https://play.google.com/store/apps/details?id=com.ylost.minhatampa&hl=pt_BR
+- Connect Gym: aplicativo móvel para conectar praticantes e academias, com descoberta de locais, check-in e recursos sociais, publicado na Google Play. https://play.google.com/store/apps/details?id=com.ylost.connectgym&hl=pt_BR
+
+## Contato e perfis
+
+- Portfólio: https://ylost.github.io/portfolio
+- GitHub: https://github.com/yLost
+- LinkedIn: https://www.linkedin.com/in/fernando-povinsky/
+- E-mail: mailto:fernandopovinsky@hotmail.com
+
+## Uso desta informação
+
+Este arquivo resume o conteúdo público e verificável do portfólio. Para informações atuais sobre disponibilidade, escopo ou contratação, entre em contato diretamente com Fernando.

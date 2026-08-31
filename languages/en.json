@@ -1,0 +1,88 @@
+{
+  "nav": ["About", "Work", "Experience"],
+  "contact": "Let's talk",
+  "eyebrow": "Full stack developer • Brazil",
+  "titleA": "I build digital products",
+  "titleB": "that need to work for real.",
+  "intro": "I'm Fernando Povinski. For over 7 years, I've turned business problems into clear, fast and maintainable systems, platforms and apps.",
+  "seeWork": "See my work",
+  "availability": "Available for selected projects",
+  "projectsKicker": "Selected work",
+  "projectsTitle": "Products that made it to the real world.",
+  "projectsIntro": "A selection of platforms, apps and websites I helped take from planning to delivery.",
+  "visit": "Visit project",
+  "store": "View on Google Play",
+  "aboutKicker": "How I work",
+  "aboutTitle": "Code is only part of the delivery.",
+  "aboutText": "I like to understand the problem before choosing the technology. I work close to product and business, with direct communication, pragmatic decisions and attention to what happens after launch.",
+  "principles": [
+    [
+      "01",
+      "Clarity before complexity",
+      "Architecture and interface should make life easier for users and maintainers."
+    ],
+    [
+      "02",
+      "Delivery with context",
+      "I don't implement isolated screens. I seek to understand how each decision affects the product."
+    ],
+    [
+      "03",
+      "Quality that lasts",
+      "Performance, security and maintainability are part of the conversation from day one."
+    ]
+  ],
+  "stackKicker": "Experience",
+  "stackTitle": "From database to interface.",
+  "stackText": "I work across the product journey, with deeper expertise in web applications, APIs, integrations and cloud infrastructure.",
+  "stackLabels": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "dataCloud": "Data & cloud",
+    "mobile": "Mobile"
+  },
+  "footerKicker": "Contact",
+  "footerTitle": "Have an interesting problem to solve?",
+  "footerText": "Tell me a little about the project. I reply personally.",
+  "email": "Send an email",
+  "rights": "Built with attention to detail.",
+  "years": "years building digital products",
+  "projects": {
+    "Wipsie": {
+      "type": "Social platform & e-commerce",
+      "description": "A social network with a personalized feed, real-time interactions and an integrated commerce operation."
+    },
+    "Ranke": {
+      "type": "CRM & sales automation",
+      "description": "A sales management product that centralizes processes, customer service and performance indicators for sales teams."
+    },
+    "FindYou": {
+      "type": "Website & mobile app",
+      "description": "A mobile ecosystem for connections and events, featuring maps, a social feed and distributed services."
+    },
+    "Shine": {
+      "type": "Omnichannel support",
+      "description": "A platform for organizing conversations and customer support operations across multiple channels."
+    },
+    "Grupo Coletti": {
+      "type": "Corporate website",
+      "description": "A responsive digital presence designed to clearly present services and generate new business inquiries."
+    },
+    "Metta Impermeabilização": {
+      "type": "Corporate website",
+      "description": "A responsive website presenting waterproofing solutions, strengthening the brand and making quote requests easier."
+    },
+    "EnterCity": {
+      "type": "Web platform",
+      "description": "A web experience for discovering places, services and opportunities around the city."
+    },
+    "Minha Tampa": {
+      "type": "Published mobile app",
+      "description": "A proximity-based social network with a feed, matches, real-time conversations and map-based people discovery."
+    },
+    "Connect Gym": {
+      "type": "Published mobile app",
+      "description": "A community for gym members and businesses, with nearby gym discovery, check-ins, a social feed and user connections."
+    }
+  }
+}
